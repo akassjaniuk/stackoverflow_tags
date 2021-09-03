@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stackoverflow_tags", "stackoverflow_tags.csproj", "{3513DBCF-D7E5-4E0A-9097-05AB8414BD28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3513DBCF-D7E5-4E0A-9097-05AB8414BD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3513DBCF-D7E5-4E0A-9097-05AB8414BD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3513DBCF-D7E5-4E0A-9097-05AB8414BD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3513DBCF-D7E5-4E0A-9097-05AB8414BD28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83A67067-4AA5-4841-9A2B-64A23E0264B1}
+	EndGlobalSection
+EndGlobal

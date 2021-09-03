@@ -1,0 +1,59 @@
+﻿@model IEnumerable<stackoverflow_tags.Models.RootObject>
+
+@{
+    ViewData["Title"] = "Home_Index";
+    int i = 1;
+}
+
+<h1>Stack Overflow favorites tags</h1>
+
+
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Lp.
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.name)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.count)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.procent)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+
+                                    @foreach (var item1 in item.items)
+                                    {
+ 
+                                                <tr>
+                                                    <td>
+                                                        @i
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item1.name)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item1.count)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item1.procent)
+                                                    </td>
+                                                </tr>
+
+                                        i++;
+
+                                    }
+
+                        }
+                    </tbody>
+                </table>
+
+
